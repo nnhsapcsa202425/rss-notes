@@ -24,7 +24,17 @@ public class StringReverse
         
         String strReversed = restOfStringReversed + firstChar;
         return strReversed;
+    }
+    
+    public static String reverseIter(String str)
+    {
+        String strReversed = "";
         
+        for(int i = 0; i < str.length(); i++)
+        {
+            strReversed = str.substring(i, i + 1) + strReversed;
+        }
         
+        return strReversed;
     }
 }
