@@ -79,9 +79,7 @@ public class FractalPanel extends JPanel
 
         page.setColor (Color.green);
 
-        drawFractal (current, TOPX, TOPY, LEFTX, LEFTY, page);
-        drawFractal (current, LEFTX, LEFTY, RIGHTX, RIGHTY, page);
-        drawFractal (current, RIGHTX, RIGHTY, TOPX, TOPY, page);
+        drawFractal (current, 200, 400, 200, 100, page);
     }
 
     //-----------------------------------------------------------------
